@@ -1,0 +1,1238 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YClover-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Regular.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    font-family: 'YClover-Bold';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: url(../images/click.png)2 2, auto;
+}
+
+li {
+    list-style: none;
+    font-family: 'YClover-Regular';
+}
+
+main .main1 {
+    width: 100%;
+    background-color: #40985A;
+}
+
+main .main1 .m1bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+.main2 {
+    width: 100%;
+    height: 2200px;
+    background: #fdf6ed url(../images/m2bg222.png) no-repeat;
+    /* background: #Fdf6ed url(images/) no-repeat; */
+    background-position: center;
+    background-size: cover;
+}
+
+/* 프로필-카드 */
+.main2 .prpx .card {
+    display: inline-grid;
+     transition: transform 0.8s;
+     transform: perspective(2000px) rotateY(0deg);
+     transform-style: preserve-3d;
+     cursor: pointer;
+     
+ }
+
+ .main2 .prpx .card > * {
+    grid-area: 1/1/1/1;
+    width: 300px;
+    height: 410px;
+    backface-visibility: hidden;
+ }
+ 
+ .main2 .prpx .card:hover {
+     transform:perspective(2000px) rotateY(180deg);
+ }
+ 
+
+ .main2 .prpx .profilepx_front {
+    width: 300px;
+    height: 410px;
+    border: 8px solid #18341A;
+    object-fit: cover;
+    border-top-left-radius:15rem;
+    border-top-right-radius:15rem;
+}
+
+.main2 .prpx .profilepx_back {
+    width: 300px;
+    height: 410px;
+    border: 8px solid #18341A;
+    object-fit: cover;
+    border-top-left-radius:15rem;
+    border-top-right-radius:15rem;
+    transform: rotateY(180deg);
+}
+
+/* 한마디 글씨 */
+.role {
+    width: 100%;
+    background-color: #Fdf6ed;
+}
+
+.m2gg {
+    padding-top: 7rem;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+
+
+/* 프로필 */
+.main2 .profile {
+    width: 900px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.main2 .profile p{
+    font-family: 'YClover-Regular';
+    color: #111111;
+}
+
+.main2 .profile .prpx {
+    padding-top: 25rem;
+}
+
+.main2 .profile .prpx h1 {
+    color: #fff;
+    font-size: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.main2 .profile .namecolor {
+    color: #18341A;
+}
+
+.main2 .profile h2 {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+.main2 .profile p {
+    font-size: 2rem;
+}
+
+.main2 .profile li {
+    font-size: 2rem;
+    color: #111111;
+}
+
+
+.main2 .profile .prpx {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main2 .prpx .profilefl .skillflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main2 .prpx .profilefl .skillflex li {
+    padding-right: .8rem;
+}
+
+.main2 .prpx .profilefl .skillflex li img {
+    width: 100%;
+}
+
+
+/* 메인3 */
+.main3 {
+    width: 100%;
+    height: 3600px;
+    background: #Fdf6ed url(../images/m3bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  position: relative;
+}
+
+
+.main3 .designcoading{
+    padding-top: 22rem;
+    padding-bottom: 1rem;
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.main3 .swfont p {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.main3 .swfont h3 {
+    font-size: 2.2rem;
+    color: #18341A;
+    padding-top: 1rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.main3 .swfont p {
+    padding-top: 1.8rem;
+    font-size: 1.3rem;
+    text-align: start;
+    color: #111111;
+    font-family: 'YClover-Regular';
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+
+.main3 .m3swup {
+    width: 1300px;
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.main3 .swfont2 p {
+    width: 420px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main3 .swfont2 h3 {
+    font-size: 2rem;
+    color: #18341A;
+    padding-top: 3rem;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.main3 .swfont2 p {
+    padding-top: 1.8rem;
+    font-size: 1.3rem;
+    text-align: start;
+    color: #111111;
+    font-family: 'YClover-Regular';
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.main3 .m3swup .clclick {
+    cursor: url(../images/click.png)2 2, auto;
+}
+
+.main3 .m3swup .swiper-wrapper .swiper-slide img {
+    padding-top: 13rem;
+    width: 580px;
+    margin: 0 auto;
+}
+
+.main3 .m3swup .swiper-wrapper .swiper-slide .more1 {
+    width: 300px;
+    margin-left: 5rem;
+}
+
+.main3 .m3swup .swiper-wrapper .swiper-slide .more1:hover {
+    content: url(../images/more2.png);
+}
+
+.main3 .m3swup .swiper-wrapper .swiper-slide {
+    width: 1200px;
+    height: 900px;
+    text-align: center;
+    background: url(../images/memo.png) no-repeat center;
+}
+
+.main3 .m3swup .swiper-button-next::after, .swiper-button-prev::after {
+    display: none;
+}
+
+.main3 .m3swup .swiper-button-next {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/nextbtn.png) no-repeat center/contain;
+}
+
+.main3 .m3swup .swiper-button-prev {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/nextbtn.png) no-repeat center/contain;
+   transform: rotateY(-180deg);
+}
+
+/* 디자인 밑부분 */
+.main3 .m3down {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.main3 .m3down .m3designlogo{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+/* 디자인 탭메뉴 */
+.main3 .tabmenu {
+    background-color: #ACD270;
+    border-top: 6px solid #111111;
+    border-left: 6px solid #111111 ;
+    border-right: 6px solid #111111;
+    text-align: center;
+    padding: 2.5rem;
+    border-top-left-radius:30rem;
+    border-top-right-radius:30rem;
+
+} 
+
+.main3 .tabmenu .inner {
+   width: 100%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.main3 .tabmenu .inner .tabnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main3 .tabmenu .inner .tabnav li {
+    padding: 0 5rem;
+     font-family: 'YClover-Bold';
+     color: #111111;
+}
+
+
+.main3 .tabmenu .inner .tabnav li.on {
+    background: url(../images/clovermini.png) no-repeat right center/contain;
+    color: #40985A;
+    font-size: 2.8rem;
+}
+
+.main3 .tabitem {
+    position: relative;
+}
+
+.main3 .item {
+    position: absolute;
+    width: 100%;
+    padding: 6rem;
+    background-color: #Fdf6ed;
+    border: 6px solid #111111;
+}
+
+.main3 .tabitem .item .swiper-slide img{
+    display: block;
+   margin: 0 auto;
+   width: 100%;
+  cursor: url(../images/click.png)2 2, auto;
+}
+
+/* 디자인 스와이퍼 안 이미지 설정 */
+.main3 .m3designsw .swiper-slide img {
+    width: 600px;
+}
+
+/* 웹/앱 스와이퍼 */
+.main3 .m3designsw .swiper-slide .gongju_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .gongju_hover:hover {
+    content: url(../images/gongjuho.png);
+    border: none;
+}
+
+.main3 .m3designsw .swiper-slide .baby_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .baby_hover:hover {
+    content: url(../images/babyho.png);
+    border: none;
+}
+
+
+/* 상세페이지 스와이퍼 */
+.main3 .m3designsw .swiper-slide .hoop_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .hoop_hover:hover {
+    content: url(../images/hoopcl.png);
+    border: none;
+}
+
+.main3 .m3designsw .swiper-slide .musinsa_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .musinsa_hover:hover {
+    content: url(../images/musinsahover.png);
+    border: none;
+}
+
+.main3 .m3designsw .swiper-slide .etude_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .etude_hover:hover {
+    content: url(../images/etudeho.png);
+    border: none;
+}
+
+.main3 .m3designsw .swiper-slide .bestpen_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .bestpen_hover:hover {
+    content: url(../images/bestpenho.png);
+    border: none;
+}
+
+/* 배너 */
+.main3 .m3designsw .swiper-slide .to_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .to_hover:hover {
+    content: url(../images/toho.png);
+    border: none;
+}
+
+
+.main3 .m3designsw .swiper-slide .piza_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .piza_hover:hover {
+    content: url(../images/pizaho.png);
+    border: none;
+}
+
+
+.main3 .m3designsw .swiper-slide .ha_hover {
+    border: 4px solid #111111;
+}
+
+.main3 .m3designsw .swiper-slide .ha_hover:hover {
+    content: url(../images/haeho.png);
+    border: none;
+}
+
+
+/* 공주온밤 팝업 */
+.popup {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 300;
+    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background-color: #fdf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; top: 0%;
+    opacity: 0;
+    visibility: hidden;
+   transition: all .5s;
+}
+
+.popup.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 만든 이미지 스크롤 */
+.imgscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.popup .imgscroll {
+    width: 670px;
+    height: 440px;
+    border: 4px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup .imgscroll .popupimg {
+    width: 100%;
+    cursor: url(../images/drag.png)2 2, auto;
+}
+
+/* 글자 */
+.popup .inner {
+    padding-left: 4rem;
+}
+
+.popuptitle {
+    font-family: 'YClover-Bold';
+}
+
+.popup .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popup .txt .cloverpopup {
+    width: 80px;
+    animation: ropopupcl 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes ropopupcl {
+    100% {transform: rotate(360deg);}
+}
+
+.popup .txt h2 {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    color: #18341A;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.popup .txt .popupself {
+    color: #ACD270;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.popup .txt p {
+    color: #111111;
+    font-family: 'YClover-Regular';
+    font-size: 1.3rem;
+}
+
+.popup .inner button {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'YClover-Bold';
+    border: none;
+    background-color: inherit;
+    color: #18341A;
+    cursor: pointer;
+}
+
+.popup .inner button:hover {
+    color: #40985A;
+}
+
+
+/* 훕훕베이글 팝업 */
+.popup5 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 300;
+    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background-color: #fdf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; top: 0%;
+    opacity: 0;
+    visibility: hidden;
+   transition: all .5s;
+}
+
+.popup5.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 만든 이미지 스크롤 */
+.imgscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.popup5 .imgscroll {
+    width: 670px;
+    height: 440px;
+    border: 4px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup5 .imgscroll .popupimg {
+    width: 100%;
+    cursor: url(../images/drag.png)2 2, auto;
+}
+
+/* 글자 */
+.popup5 .inner {
+    padding-left: 4rem;
+}
+
+.popup5 .popuptitle {
+    font-family: 'YClover-Bold';
+}
+
+.popup5 .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popup5 .txt .cloverpopup {
+    width: 80px;
+    animation: ropopupcl 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes ropopupcl {
+    100% {transform: rotate(360deg);}
+}
+
+.popup5 .txt h2 {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    color: #18341A;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.popup5 .txt .popupself {
+    color: #ACD270;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.popup5 .txt p {
+    color: #111111;
+    font-family: 'YClover-Regular';
+    font-size: 1.3rem;
+}
+
+.popup5 .inner button {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'YClover-Bold';
+    border: none;
+    background-color: inherit;
+    color: #18341A;
+    cursor: pointer;
+}
+
+.popup5 .inner button:hover {
+    color: #40985A;
+}
+
+
+/* 무신사 상세페이지 팝업 */
+.popup6 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 300;
+    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background-color: #fdf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; top: 0%;
+    opacity: 0;
+    visibility: hidden;
+   transition: all .5s;
+}
+
+.popup6.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 만든 이미지 스크롤 */
+.imgscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.popup6 .imgscroll {
+    width: 670px;
+    height: 440px;
+    border: 4px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup6 .imgscroll .popupimg {
+    width: 100%;
+    cursor: url(../mages/drag.png)2 2, auto;
+}
+
+/* 글자 */
+.popup6 .inner {
+    padding-left: 4rem;
+}
+
+.popup6 .popuptitle {
+    font-family: 'YClover-Bold';
+}
+
+.popup6 .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popup6 .txt .cloverpopup {
+    width: 80px;
+    animation: ropopupcl 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes ropopupcl {
+    100% {transform: rotate(360deg);}
+}
+
+.popup6 .txt h2 {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #18341A;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.popup6 .txt .popupself {
+    color: #ACD270;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.popup6 .txt p {
+    color: #111111;
+    font-family: 'YClover-Regular';
+    font-size: 1.3rem;
+}
+
+.popup6 .inner button {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'YClover-Bold';
+    border: none;
+    background-color: inherit;
+    color: #18341A;
+    cursor: pointer;
+}
+
+.popup6 .inner button:hover {
+    color: #40985A;
+}
+
+
+/* 에뛰드 상세페이지 팝업 */
+.popup7 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 300;
+    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background-color: #fdf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; top: 0%;
+    opacity: 0;
+    visibility: hidden;
+   transition: all .5s;
+}
+
+.popup7.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 만든 이미지 스크롤 */
+.imgscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.popup7 .imgscroll {
+    width: 670px;
+    height: 440px;
+    border: 4px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup7 .imgscroll .popupimg {
+    width: 100%;
+    cursor: url(../images/drag.png)2 2, auto;
+}
+
+/* 글자 */
+.popup7 .inner {
+    padding-left: 4rem;
+}
+
+.popup7 .popuptitle {
+    font-family: 'YClover-Bold';
+}
+
+.popup7 .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popup7 .txt .cloverpopup {
+    width: 80px;
+    animation: ropopupcl 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes ropopupcl {
+    100% {transform: rotate(360deg);}
+}
+
+.popup7 .txt h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #18341A;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.popup7 .txt .popupself {
+    color: #ACD270;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.popup7 .txt p {
+    color: #111111;
+    font-family: 'YClover-Regular';
+    font-size: 1.3rem;
+}
+
+.popup7 .inner button {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'YClover-Bold';
+    border: none;
+    background-color: inherit;
+    color: #18341A;
+    cursor: pointer;
+}
+
+.popup7 .inner button:hover {
+    color: #40985A;
+}
+
+/*베스트펜 팝업 */
+.popup8 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 300;
+    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background-color: #fdf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; top: 0%;
+    opacity: 0;
+    visibility: hidden;
+   transition: all .5s;
+}
+
+.popup8.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 만든 이미지 스크롤 */
+.imgscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.popup8 .imgscroll {
+    width: 670px;
+    height: 440px;
+    border: 4px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup8 .imgscroll .popupimg {
+    width: 100%;
+    cursor: url(../images/drag.png)2 2, auto;
+}
+
+/* 글자 */
+.popup8 .inner {
+    padding-left: 4rem;
+}
+
+.popup8 .popuptitle {
+    font-family: 'YClover-Bold';
+}
+
+.popup8 .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popup8 .txt .cloverpopup {
+    width: 80px;
+    animation: ropopupcl 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes ropopupcl {
+    100% {transform: rotate(360deg);}
+}
+
+.popup8 .txt h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #18341A;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.popup8 .txt .popupself {
+    color: #ACD270;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.popup8 .txt p {
+    color: #111111;
+    font-family: 'YClover-Regular';
+    font-size: 1.3rem;
+}
+
+.popup8 .inner button {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'YClover-Bold';
+    border: none;
+    background-color: inherit;
+    color: #18341A;
+    cursor: pointer;
+}
+
+.popup8 .inner button:hover {
+    color: #40985A;
+}
+
+/*베이비너리 팝업 */
+.popup9 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    position: fixed;
+    z-index: 300;
+    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background-color: #fdf6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; top: 0%;
+    opacity: 0;
+    visibility: hidden;
+   transition: all .5s;
+}
+
+.popup9.on {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 만든 이미지 스크롤 */
+.imgscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.popup9 .imgscroll {
+    width: 360px;
+    height: 700px;
+    border: 4px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup9 .imgscroll .popupimg {
+    width: 100%;
+    cursor: url(../images/drag.png)2 2, auto;
+}
+
+/* 글자 */
+.popup9 .inner {
+    padding-left: 10rem;
+}
+
+.popup9 .popuptitle {
+    font-family: 'YClover-Bold';
+}
+
+.popup9 .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popup9 .txt .cloverpopup {
+    width: 80px;
+    animation: ropopupcl 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes ropopupcl {
+    100% {transform: rotate(360deg);}
+}
+
+.popup9 .txt h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #18341A;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #40985A;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
+}
+
+.popup9 .txt .popupself {
+    color: #ACD270;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.popup9 .txt p {
+    color: #111111;
+    font-family: 'YClover-Regular';
+    font-size: 1.3rem;
+}
+
+.popup9 .inner button {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'YClover-Bold';
+    border: none;
+    background-color: inherit;
+    color: #18341A;
+    cursor: pointer;
+}
+
+.popup9 .inner button:hover {
+    color: #40985A;
+}
+
+/* 토리든 팝업 */
+.bannerpopup {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0; left: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: none;
+    z-index: 1000;
+}
+
+.bpopuptx {
+   position: absolute;
+   top: 50%; left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.bannerpopup .bpopuptx button {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    color:#ACD270;
+    font-family: 'YClover-Bold';
+}
+
+.bannerpopup .bpopuptx button:hover {
+    color: #40985A;
+}
+
+/* 빽보이 피자 팝업 */
+.bannerpopup1 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0; left: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: none;
+    z-index: 1000;
+}
+
+.bpopuptx1 {
+   position: absolute;
+   top: 50%; left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.bannerpopup1 .bpopuptx1 button {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    color:#ACD270;
+    font-family: 'YClover-Bold';
+}
+
+.bannerpopup1 .bpopuptx1 button:hover {
+    color: #40985A;
+}
+
+/* 호미곶 팝업 */
+.bannerpopup2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0; left: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: none;
+    z-index: 1000;
+}
+
+.bpopuptx2 {
+   position: absolute;
+   top: 50%; left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.bannerpopup2 .bpopuptx2 button {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    color:#ACD270;
+    font-family: 'YClover-Bold';
+}
+
+.bannerpopup2 .bpopuptx2 button:hover {
+    color: #40985A;
+}
+
+
+/* 마지막 연락 */
+.main4 {
+    cursor: url(../images/lettercursor.png)2 2, auto;
+    background: url(../images/contact1.png)no-repeat center/contain;
+    background-color: #Fdf6ed;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.main4 .conhover {
+    opacity: 0;
+    position: absolute;
+    top: 22%; left: 19%;
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 8rem;
+    text-align: center;
+    border-radius: 10rem;
+    color: #Fdf6ed;
+    background-color: #A6CB6F;
+    z-index: 5000;
+}
+
+.main4 .conhover:hover {
+    display: none;
+}
+
+
