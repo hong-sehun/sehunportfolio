@@ -485,7 +485,7 @@ main .main1 .m1bg {
     padding-bottom: 5rem;
     position: fixed;
     z-index: 300;
-    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background: url(../images/clickpostbg.png)no-repeat 100% center/100%;
     background-color: #fdf6ed;
     display: flex;
     justify-content: center;
@@ -558,7 +558,7 @@ main .main1 .m1bg {
 
 .popup .txt .popupself {
     color: #ACD270;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -591,7 +591,7 @@ main .main1 .m1bg {
     padding-bottom: 5rem;
     position: fixed;
     z-index: 300;
-    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background: url(../images/clickpostbg.png)no-repeat 100% center/100%;
     background-color: #fdf6ed;
     display: flex;
     justify-content: center;
@@ -664,7 +664,7 @@ main .main1 .m1bg {
 
 .popup5 .txt .popupself {
     color: #ACD270;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -697,7 +697,7 @@ main .main1 .m1bg {
     padding-bottom: 5rem;
     position: fixed;
     z-index: 300;
-    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background: url(../images/clickpostbg.png)no-repeat 100% center/100%;
     background-color: #fdf6ed;
     display: flex;
     justify-content: center;
@@ -803,7 +803,7 @@ main .main1 .m1bg {
     padding-bottom: 5rem;
     position: fixed;
     z-index: 300;
-    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background: url(../images/clickpostbg.png)no-repeat 100% center/100%;
     background-color: #fdf6ed;
     display: flex;
     justify-content: center;
@@ -876,7 +876,7 @@ main .main1 .m1bg {
 
 .popup7 .txt .popupself {
     color: #ACD270;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -908,7 +908,7 @@ main .main1 .m1bg {
     padding-bottom: 5rem;
     position: fixed;
     z-index: 300;
-    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background: url(../images/clickpostbg.png)no-repeat 100%center/100%;
     background-color: #fdf6ed;
     display: flex;
     justify-content: center;
@@ -981,7 +981,7 @@ main .main1 .m1bg {
 
 .popup8 .txt .popupself {
     color: #ACD270;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -1013,7 +1013,7 @@ main .main1 .m1bg {
     padding-bottom: 5rem;
     position: fixed;
     z-index: 300;
-    background: url(../images/clickpostbg.png)no-repeat center/cover;
+    background: url(../images/clickpostbg.png)no-repeat 100% center/100%;
     background-color: #fdf6ed;
     display: flex;
     justify-content: center;
@@ -1086,7 +1086,7 @@ main .main1 .m1bg {
 
 .popup9 .txt .popupself {
     color: #ACD270;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -1121,6 +1121,10 @@ main .main1 .m1bg {
     z-index: 1000;
 }
 
+.bannerpopup img {
+    width: 100%;
+}
+
 .bpopuptx {
    position: absolute;
    top: 50%; left: 50%;
@@ -1153,6 +1157,10 @@ main .main1 .m1bg {
     z-index: 1000;
 }
 
+.bannerpopup1 img {
+    width: 100%;
+}
+
 .bpopuptx1 {
    position: absolute;
    top: 50%; left: 50%;
@@ -1183,6 +1191,10 @@ main .main1 .m1bg {
     background-color: rgb(0, 0, 0, 0.6);
     display: none;
     z-index: 1000;
+}
+
+.bannerpopup2  img {
+    width: 100%;
 }
 
 .bpopuptx2 {
