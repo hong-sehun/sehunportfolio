@@ -1538,6 +1538,131 @@ html {
 
 }
 
+@media screen and (max-width:425px){
+    
+/* 공주온밤 팝업 */
+.popup {
+    background: none;
+    background-color: #fdf6ed;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popup .imgscroll {
+    margin-top: 0rem;
+    width: 280px;
+    height: 150px;
+    border: 2px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* 훕훕 팝업 */
+.popup5 {
+    background: none;
+    background-color: #fdf6ed;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popup5 .imgscroll {
+    margin-top: 0rem;
+    width: 280px;
+    height: 150px;
+    border: 2px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup5 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* 무신사 팝업 */
+.popup6 {
+    background: none;
+    background-color: #fdf6ed;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popup6 .imgscroll {
+    margin-top: 0rem;
+    width: 280px;
+    height: 150px;
+    border: 2px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup6 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+/* 에뛰드 팝업 */
+.popup7 {
+    background: none;
+    background-color: #fdf6ed;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popup7 .imgscroll {
+    margin-top: 0rem;
+    width: 280px;
+    height: 150px;
+    border: 2px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup7 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* 베스트펜 팝업 */
+.popup8 {
+    background: none;
+    background-color: #fdf6ed;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popup8 .imgscroll {
+    margin-top: 0rem;
+    width: 280px;
+    height: 150px;
+    border: 2px solid #111111;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.popup8 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+}
+
 @media screen and (max-width:375px){
     html {
         font-size: 10px;
@@ -2107,12 +2232,8 @@ html {
     align-items: center;
 }
 
-
-.popup .txt .cloverpopup {
-    width: 35px;
-}
 .popup .imgscroll {
-    margin-top: 23rem;
+    margin-top: 0rem;
     width: 280px;
     height: 150px;
     border: 2px solid #111111;
@@ -2120,6 +2241,10 @@ html {
     overflow: auto;
 }
 
+.popup .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
 
 /* 훕훕 팝업 */
 .popup5 {
@@ -2132,12 +2257,17 @@ html {
 }
 
 .popup5 .imgscroll {
-    margin-top: 23rem;
+    margin-top: 0rem;
     width: 280px;
     height: 150px;
     border: 2px solid #111111;
     border-radius: 1rem;
     overflow: auto;
+}
+
+.popup5 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
 }
 
 /* 무신사 팝업 */
@@ -2151,13 +2281,19 @@ html {
 }
 
 .popup6 .imgscroll {
-    margin-top: 23rem;
+    margin-top: 0rem;
     width: 280px;
     height: 150px;
     border: 2px solid #111111;
     border-radius: 1rem;
     overflow: auto;
 }
+
+.popup6 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+
 
 /* 에뛰드 팝업 */
 .popup7 {
@@ -2170,12 +2306,17 @@ html {
 }
 
 .popup7 .imgscroll {
-    margin-top: 23rem;
+    margin-top: 0rem;
     width: 280px;
     height: 150px;
     border: 2px solid #111111;
     border-radius: 1rem;
     overflow: auto;
+}
+
+.popup7 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
 }
 
 /* 베스트펜 팝업 */
@@ -2189,7 +2330,7 @@ html {
 }
 
 .popup8 .imgscroll {
-    margin-top: 23rem;
+    margin-top: 0rem;
     width: 280px;
     height: 150px;
     border: 2px solid #111111;
@@ -2197,7 +2338,10 @@ html {
     overflow: auto;
 }
 
-
+.popup8 .inner {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
 
 }
 
