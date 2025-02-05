@@ -18,6 +18,10 @@ function popup2() {
     window.open('images/h1all.png','하이원','width=300, height=900')
 }
 
+function popup3() {
+    window.open('images/musinsasite.png','무신사사이트','width=300, height=900')
+}
+
 // 토리든 팝업
 $(function () {
     $('.to_hover').click(function () {

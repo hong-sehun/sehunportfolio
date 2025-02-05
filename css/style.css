@@ -273,20 +273,37 @@ main .main1 .m1bg {
     cursor: url(../images/click.png)2 2, auto;
 }
 
+
+
+
 .main3 .m3swup .swiper-wrapper .swiper-slide img {
     padding-top: 13rem;
     width: 580px;
     margin: 0 auto;
 }
 
+.main3 .m3swup .swiper-wrapper .swiper-slide .morenewfl {
+    display: flex;
+    margin: 0 auto;
+}
+
+.main3 .m3swup .swiper-wrapper .swiper-slide .new1 {
+    width: 300px;
+}
+
 .main3 .m3swup .swiper-wrapper .swiper-slide .more1 {
     width: 300px;
-    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .main3 .m3swup .swiper-wrapper .swiper-slide .more1:hover {
     content: url(../images/more2.png);
 }
+
+.main3 .m3swup .swiper-wrapper .swiper-slide .new1:hover {
+    content: url(../images/new2.png);
+}
+
 
 .main3 .m3swup .swiper-wrapper .swiper-slide {
     width: 1200px;
@@ -566,6 +583,19 @@ main .main1 .m1bg {
     color: #111111;
     font-family: 'YClover-Regular';
     font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.morebtn img{
+    width: 200px;
+}
+
+.morebtn .siteho:hover {
+    content: url(../images/site2.png);
+}
+
+.morebtn .resitho:hover {
+    content: url(../images/re2.png);
 }
 
 .popup .inner button {
@@ -581,6 +611,8 @@ main .main1 .m1bg {
 .popup .inner button:hover {
     color: #40985A;
 }
+
+
 
 
 /* 훕훕베이글 팝업 */
@@ -672,6 +704,7 @@ main .main1 .m1bg {
     color: #111111;
     font-family: 'YClover-Regular';
     font-size: 1.3rem;
+    padding-bottom: 2rem;
 }
 
 .popup5 .inner button {
@@ -778,6 +811,7 @@ main .main1 .m1bg {
     color: #111111;
     font-family: 'YClover-Regular';
     font-size: 1.3rem;
+    padding-bottom: 2rem;
 }
 
 .popup6 .inner button {
@@ -884,6 +918,7 @@ main .main1 .m1bg {
     color: #111111;
     font-family: 'YClover-Regular';
     font-size: 1.3rem;
+    padding-bottom: 2rem;
 }
 
 .popup7 .inner button {
@@ -989,6 +1024,7 @@ main .main1 .m1bg {
     color: #111111;
     font-family: 'YClover-Regular';
     font-size: 1.3rem;
+    padding-bottom: 2rem;
 }
 
 .popup8 .inner button {
@@ -1094,6 +1130,7 @@ main .main1 .m1bg {
     color: #111111;
     font-family: 'YClover-Regular';
     font-size: 1.3rem;
+    padding-bottom: 2rem;
 }
 
 .popup9 .inner button {
