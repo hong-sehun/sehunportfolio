@@ -586,9 +586,14 @@ main .main1 .m1bg {
     padding-bottom: 2rem;
 }
 
+.morebtn {
+    width: 100%;
+}
+
 .morebtn img{
     width: 200px;
 }
+
 
 .morebtn .siteho:hover {
     content: url(../images/site2.png);
