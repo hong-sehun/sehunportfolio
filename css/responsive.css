@@ -703,6 +703,9 @@ html {
 }
 
 
+
+
+
 /* 메인4 마지막 */
 .main4 {
     cursor: url(../images/lettercursor-resize.png)2 2, auto;
@@ -1559,7 +1562,8 @@ html {
 }
 
 @media screen and (max-width:425px){
-    
+
+
 /* 공주온밤 팝업 */
 .popup {
     background: none;
@@ -1688,7 +1692,9 @@ html {
         font-size: 10px;
         overflow-x: hidden;
      }
-    
+
+
+
     .main2 {
         width: 100%;
         height: 600px;
@@ -1920,7 +1926,7 @@ html {
 .main4 {
     cursor: url(../images/lettercursor-resize.png)2 2, auto;
     background: url(../images/contact1.png)no-repeat center/contain;
-    background-color: #f5a63f;
+    background-color: #Fdf6ed;
     position: relative;
     width: 100%;
     height: 80vw;
@@ -1952,6 +1958,12 @@ html {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.popup .imgscroll {
+    width: 670px;
+    height: 440px;
+}
+
 
 /* 훕훕 팝업 */
 .popup5 {
